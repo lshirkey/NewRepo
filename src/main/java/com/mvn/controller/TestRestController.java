@@ -8,7 +8,7 @@ public class TestRestController {
 
 	
 	
-	@GetMapping
+	@GetMapping("/welcome")
 	public String hello() {
 		return "Rest Respone";
 	}
